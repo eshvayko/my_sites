@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    color: white;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #696767;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#calculator {
+    width: 450px;
+    height: 700px;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    background-color: #313030;
+}
+
+#number {
+    width: 100%;
+    border-radius: 15px;
+    border: none;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    outline: none;
+    text-align: right;
+}
+
+#buttons {
+    background-color: black;
+    border-radius: 15px;
+    width: 100%;
+    height: 549px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 35px;
+    margin: 5px;
+}
+
+.operation {
+    background-color: #ffa600;
+}
+
+#c {
+    width: 170px;
+    border-radius: 50px;
+}
