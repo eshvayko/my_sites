@@ -26,10 +26,10 @@ function start() {
     for (var i = 0; i < timesInfo.length; i++) {timesInfo[i].setAttribute('readonly', 'readonly');}
     info.innerHTML = '<span style="font-size: 30px">&#9203;</span>';
     try {
-        var d = parseInt(daysInfo.value);
-        var h = parseInt(hoursInfo.value);
-        var m = parseInt(minutesInfo.value);
-        var s = parseInt(secondsInfo.value);
+        var d = Math.floor((daysInfo.value));
+        var h = Math.floor((hoursInfo.value));
+        var m = Math.floor((minutesInfo.value));
+        var s = Math.floor((secondsInfo.value));
     } catch {
         error();
         return;
