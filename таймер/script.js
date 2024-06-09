@@ -6,6 +6,9 @@ const minutesInfo = document.querySelector('#minutes');
 const secondsInfo = document.querySelector('#seconds');
 var timesInfo = [daysInfo, hoursInfo, minutesInfo, secondsInfo];
 
+var d, h, m, s;
+var times = [d, h, m, s];
+
 const startBtn = document.querySelector('#start');
 const stopBtn = document.querySelector('#stop');
 
@@ -26,10 +29,10 @@ function start() {
     for (var i = 0; i < timesInfo.length; i++) {timesInfo[i].setAttribute('readonly', 'readonly');}
     info.innerHTML = '<span style="font-size: 30px">&#9203;</span>';
     try {
-        var d = eval(daysInfo.value);
-        var h = eval(hoursInfo.value);
-        var m = eval(minutesInfo.value);
-        var s = eval(secondsInfo.value);
+        d = eval(daysInfo.value);
+        h = eval(hoursInfo.value);
+        m = eval(minutesInfo.value);
+        s = eval(secondsInfo.value);
     } catch {
         error();
         return;
@@ -113,9 +116,6 @@ function start() {
         info.innerHTML = 'это печально';
         for (var i = 0; i < timesInfo.length; i++) {timesInfo[i].removeAttribute('readonly');}
         timerTick = false;
-        daysInfo.value = 0;
-        hoursInfo.value = 0;
-        minutesInfo.value = 0;
-        secondsInfo.value = 0;
+        for (var i = 0; i < timesInfo.length; i++) {timesInfo[i].value = 0;}
     }
 }
