@@ -19,6 +19,10 @@ function moveCursor(num) {
     }
 }
 
+function isInt(value) {
+    return !isNaN(value) && (function(x) { return (x | 0) === x; })(parseFloat(value))
+}
+
 function start() {
     if (timerTick) {
         return;
@@ -34,7 +38,7 @@ function start() {
         error();
         return;
     }
-    if ((d == undefined) || (d == NaN) || (h == undefined) || (h == NaN) || (m == undefined) || (m == NaN) || (s == undefined) || (s == NaN) || (d < 0) || (h < 0) || (m < 0) || (s < 0)) {
+    if ((d == undefined) || (d == NaN) || (h == undefined) || (h == NaN) || (m == undefined) || (m == NaN) || (s == undefined) || (s == NaN) || (d < 0) || (h < 0) || (m < 0) || (s < 0) || isInt(d) || isInt(h) || isInt(m) || isInt(s)) {
         error();
         return;
     }
