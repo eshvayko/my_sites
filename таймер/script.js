@@ -7,7 +7,6 @@ const secondsInfo = document.querySelector('#seconds');
 var timesInfo = [daysInfo, hoursInfo, minutesInfo, secondsInfo];
 
 var d, h, m, s;
-var times = [d, h, m, s];
 
 const startBtn = document.querySelector('#start');
 const stopBtn = document.querySelector('#stop');
