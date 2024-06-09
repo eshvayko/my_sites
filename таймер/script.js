@@ -57,10 +57,8 @@ function start() {
     minutesInfo.value = m;
     secondsInfo.value = s;
 
-    var time = eval(s * 1000 + m * 60000 + h * 3600000 + d * 86400000);
     showTime();
     var timerSec = setInterval(showTime, 1000);
-    var timer = setTimeout(timeUp, time);
     stopBtn.onclick = stop;
     timerTick = true;
 
@@ -76,7 +74,8 @@ function start() {
         h = hoursInfo.value;
         m = minutesInfo.value;
         s = secondsInfo.value;
-        if (d == 0 && h == 0 & m == 0 & s == 0) {
+        if (d == 0 && h == 0 && m == 0 && s == 0) {
+            timeUp();
             return;
         }
         s -= 1;
@@ -106,7 +105,6 @@ function start() {
 
     function stop() {
         for (var i = 0; i < timesInfo.length; i++) {timesInfo[i].removeAttribute('readonly');}
-        clearTimeout(timer);
         clearInterval(timerSec);
         timerTick = false;
     }
