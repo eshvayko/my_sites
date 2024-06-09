@@ -63,7 +63,7 @@ function start() {
     timerTick = true;
 
     function timeUp() {
-        var audio = new Audio('Smeshariki_-_OT_VINTA_Bass_Boosted_63361235.mp3');
+        var audio = new Audio('fonts/Smeshariki_-_OT_VINTA_Bass_Boosted_63361235.mp3');
         audio.play();
         info.innerHTML = 'вадим';
         for (var i = 0; i < timesInfo.length; i++) {timesInfo[i].removeAttribute('readonly');}
