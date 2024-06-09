@@ -26,15 +26,15 @@ function start() {
     for (var i = 0; i < timesInfo.length; i++) {timesInfo[i].setAttribute('readonly', 'readonly');}
     info.innerHTML = '<span style="font-size: 30px">&#9203;</span>';
     try {
-        var d = eval((daysInfo.value));
-        var h = eval((hoursInfo.value));
-        var m = eval((minutesInfo.value));
-        var s = eval((secondsInfo.value));
+        var d = eval(daysInfo.value);
+        var h = eval(hoursInfo.value);
+        var m = eval(minutesInfo.value);
+        var s = eval(secondsInfo.value);
     } catch {
         error();
         return;
     }
-    if ((d == undefined) || (d == NaN) || (h == undefined) || (h == NaN) || (m == undefined) || (m == NaN) || (s == undefined) || (s == NaN) || (d < 0) || (h < 0) || (m < 0) || (s < 0)) {
+    if ((d == undefined) || (d == NaN) || (h == undefined) || (h == NaN) || (m == undefined) || (m == NaN) || (s == undefined) || (s == NaN) || (d < 0) || (h < 0) || (m < 0) || (s < 0) || (!Number.isInteger(d)) || (!Number.isInteger(h)) || (!Number.isInteger(m)) || (!Number.isInteger(s))) {
         error();
         return;
     }
