@@ -34,7 +34,7 @@ function start() {
         error();
         return;
     }
-    if ((d == undefined) || (d == NaN) || (h == undefined) || (h == NaN) || (m == undefined) || (m == NaN) || (s == undefined) || (s == NaN) || (d < 0) || (h < 0) || (m < 0) || (s < 0) || (d == 'NaN') || (h == 'NaN') || (m == 'NaN') || (s == 'NaN')) {
+    if ((d == undefined) || (d == NaN) || (h == undefined) || (h == NaN) || (m == undefined) || (m == NaN) || (s == undefined) || (s == NaN) || (d < 0) || (h < 0) || (m < 0) || (s < 0)) {
         error();
         return;
     }
