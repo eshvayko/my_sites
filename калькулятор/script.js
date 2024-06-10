@@ -9,7 +9,7 @@ function read(operation) {
         }
         value.value = operation;
     } else if (operation == '<') {
-        if ((value.value == 'ошибка') || (value.value == 'Infinity')) {
+        if ((value.value == 'ошибка') || (value.value == 'Infinity') || (value.value == 'undefined')) {
             value.value = '0';
         }
         value.value = value.value.substring(0, value.value.length - 1);
