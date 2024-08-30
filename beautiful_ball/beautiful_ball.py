@@ -21,7 +21,7 @@ radius = 20
 fps = 200
 speedx = random.randint(5, 10) * random.choice([-1, 1])
 speedy = random.randint(5, 10) * random.choice([-1, 1])
-changeRadius = 7
+changeRadius = 5
 timer = pygame.time.Clock()
 
 def changeColor():
@@ -47,6 +47,7 @@ while keep_going:
             keep_going = False
     screen.fill((0, 0, 0))
     isRadiusChanged = False
+    ywall = False
     x += speedx / fps * 60
     y += speedy / fps * 60
     if x - radius <= 0 or x + radius >= width:
@@ -60,11 +61,14 @@ while keep_going:
     if isRadiusChanged:
         radius -= changeRadius
     if y - radius <= 0 or y + radius >= height:
+        ywall = True
         if y - radius <= 0:
             y = radius + changeRadius
         if y + radius >= height:
             y = height - radius - changeRadius
         speedy = -speedy
+        radius += changeRadius
+    if not ywall and isRadiusChanged:
         radius += changeRadius
     if radius >= height / 2 or radius >= width / 2:
         keep_going = False
