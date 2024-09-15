@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/iconsfont.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/list_check_icon_151227.ico" type="image/x-icon">
+    <title>TO DO list</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>TO DO list</h1>
+        </div>
+        <div class="input">
+            <input type="text" maxlength="34" style="width: 500px; font-size: 16px;">
+            <i class="i-plus" onclick="addTask()" style="margin-left: 10px;"></i>
+        </div>
+        <div class="info">
+            <span class="persent_block"><span class="persent">- </span>% сделано</span>
+            <span class="buttons">
+                <i class="i-trash-check" style="font-size: 22px; margin-right: 5px;" onclick="deleteDoneTasks()"></i>
+                <i class="i-trash-can" style="margin-top: 2px;" onclick="deleteAll()"></i>
+            </span>
+        </div>
+        <ul class="list"></ul>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
