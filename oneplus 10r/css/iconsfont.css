@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'iconfont';
-  src:  url('../fonts/iconfont.eot?j3vjxx');
-  src:  url('../fonts/iconfont.eot?j3vjxx#iefix') format('embedded-opentype'),
-    url('../fonts/iconfont.ttf?j3vjxx') format('truetype'),
-    url('../fonts/iconfont.woff?j3vjxx') format('woff'),
-    url('../fonts/iconfont.svg?j3vjxx#iconfont') format('svg');
+  src:  url('../fonts/iconfont.eot?rykgvc');
+  src:  url('../fonts/iconfont.eot?rykgvc#iefix') format('embedded-opentype'),
+    url('../fonts/iconfont.ttf?rykgvc') format('truetype'),
+    url('../fonts/iconfont.woff?rykgvc') format('woff'),
+    url('../fonts/iconfont.svg?rykgvc#iconfont') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -13,6 +13,7 @@
 [class^="i-"], [class*=" i-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'iconfont' !important;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -24,24 +25,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.i-battery-three:before {
+.i-youtube:before {
   content: "\e900";
 }
-.i-discord:before {
+.i-whatsapp:before {
   content: "\e901";
 }
-.i-finger:before {
+.i-vk:before {
   content: "\e902";
 }
 .i-telegram:before {
   content: "\e903";
 }
-.i-vk:before {
+.i-finger:before {
   content: "\e904";
 }
-.i-whatsapp:before {
+.i-discord:before {
   content: "\e905";
 }
-.i-youtube:before {
+.i-battery-three-quarters:before {
   content: "\e906";
+}
+.i-battery-three:before {
+  content: "\e907";
 }
