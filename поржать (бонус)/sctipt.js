@@ -1,13 +1,3 @@
-// function showname() {
-//     var input = document.querySelector('input'); 
-//     console.log('Selected file: ' + input.files[0].name);
-//     console.log('Selected file: ' + input.files.item(0).size);
-//     console.log('Selected file: ' + input.files.item(0).type);
-// };
-// document.querySelector('input').addEventListener('change', () => {
-
-// });
-
 document.querySelector('input').addEventListener('change', () => {
     var buttonInf = document.querySelector('#buttoninf');
     var name = document.querySelector("#inputfile").files[0].name;
