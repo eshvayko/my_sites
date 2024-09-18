@@ -25,16 +25,18 @@ function autoplayAudio() {
     document.querySelector('#button').addEventListener('click', () => {
         var timeInput = document.querySelector('#inputtime');
         var speedInput = document.querySelector('#inputspeed');
-        if (timeInput.value == '' || timeInput.value >= 15 || timeInput.value <= 0) {
-            window.time = 5;
-        } else {
-            window.time = timeInput.value;
-        }
-        if (speedInput.value == '' || speedInput.value > 15 || speedInput.value <= 0) {
-            window.speed = 2;
-        } else {
-            window.speed = speedInput.value;
-        }
+        // if (timeInput.value == '' || timeInput.value >= 15 || timeInput.value <= 0) {
+        //     window.time = 5;
+        // } else {
+            // window.time = timeInput.value;
+        // }
+        // if (speedInput.value == '' || speedInput.value > 15 || speedInput.value <= 0) {
+        //     window.speed = 2;
+        // } else {
+            // window.speed = speedInput.value;
+        // }
+        window.time = timeInput.value;
+        window.speed = speedInput.value;
         timeInput.value = '';
         speedInput.value = '';
         var autoplay = setInterval(() => {
