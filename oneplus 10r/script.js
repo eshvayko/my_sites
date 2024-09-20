@@ -44,3 +44,9 @@ function update() {
 }
 
 setInterval(update, 100);
+
+function unlock() {
+    document.querySelector('.oneplus').innerHTML = '<div class="right_btn"></div><div class="left_btn_one"></div><div class="left_btn_two"></div><div class="circle"><div class="center-circle"></div></div>';
+    // document.querySelector('.oneplus').style = 'background-image: url(images/максим2.jpg);';
+    document.querySelector('.oneplus').style = 'background-image: url(images/кириешки.png);';
+}
