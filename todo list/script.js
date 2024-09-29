@@ -2,27 +2,28 @@ const input = document.querySelector('input');
 const persentInfo = document.querySelector('.persent');
 const list = document.querySelector('.list');
 
-var tasks = 0;
-var maxtasks = 0;
-var completeTasks = 0;
+let tasks = 15;
+// let tasks = 0;
+let maxtasks = tasks;
+let completeTasks = 0;
+countPersent()
 
 document.onkeydown = (event) => {
-    if (event.keyCode == 13) {
+    if (event.keyCode === 13) {
         addTask();
     }
 }
 
 function countPersent() {
-    if (tasks == 0) {
+    if (tasks === 0) {
         persentInfo.innerHTML = '- ';
     } else {
-        var persent = Math.floor(completeTasks / tasks * 100 * 100) / 100;
-        persentInfo.innerHTML = persent;
+        persentInfo.innerHTML = Math.floor(completeTasks / tasks * 100 * 100) / 100;
     }
 }
 
 function addTask() {
-    if (input.value != '') {
+    if (input.value !== '') {
         list.innerHTML += `<li class="task${tasks}"><i class="i-check" onclick="checkTask(${tasks})" style="margin-right:10px"></i><span class="text">${input.value}</span><span class="buttonsli"><i class="i-pen" onclick="editTask(${tasks})" style="margin-right: 10px"></i><i class="i-trash-can" onclick="deleteTask(${tasks})"></i></span></li>`;
         input.value = '';
         tasks++;
@@ -59,7 +60,7 @@ function checkTask(num) {
 }
 
 function deleteDoneTasks() {
-    for (var num = 0; num <= maxtasks; num++) {
+    for (let  num = 0; num <= maxtasks; num++) {
         try {
             if (document.querySelector(`.task${num} .text`).classList.contains('checked')) {
                 document.querySelector(`.task${num}`).remove();
@@ -72,7 +73,7 @@ function deleteDoneTasks() {
 }
 
 function editTask(num) {
-    if (input.value != '') {
+    if (input.value !== '') {
         document.querySelector(`.task${num} .text`).innerHTML = input.value;
         input.value = '';
     }

@@ -33,22 +33,22 @@ function fillCell(num) {
     } else {
         fillO(num);
     }
-    for (i = 0; i != winnerNumbers.length + 3; i = i + 3) {
+    for (i = 0; i !== winnerNumbers.length + 3; i = i + 3) {
         if (findWinner) {
             break;
         }
         checkWinner(winnerNumbers[i], winnerNumbers[i + 1], winnerNumbers[i + 2]);
     }
-    if (i == winnerNumbers.length + 3) {
+    if (i === winnerNumbers.length + 3) {
         alertInfo('draw', -1, -1, -1);
     }
 }
 
 function alertInfo(xo, a, b, c) {
-    if (xo == 'draw' && moves == 9) {
+    if (xo === 'draw' && moves === 9) {
         winspanplayer.innerHTML = 'Ничья!';
     } else {
-        if (a == -1) {
+        if (a === -1) {
             return;
         }
         winPlayerScreen.innerHTML = xo;
@@ -84,7 +84,7 @@ function checkWinner(a, b, c) {
 }
 
 function replay() {
-    for (var i = 0; i != 9; i++) {
+    for (let i = 0; i !== 9; i++) {
         moves = 0;
         XorO = true;
         game = true;
