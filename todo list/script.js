@@ -2,8 +2,7 @@ const input = document.querySelector('input');
 const persentInfo = document.querySelector('.persent');
 const list = document.querySelector('.list');
 
-let tasks = 15;
-// let tasks = 0;
+let tasks = 0;
 let maxtasks = tasks;
 let completeTasks = 0;
 countPersent()

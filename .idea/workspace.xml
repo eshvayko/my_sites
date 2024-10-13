@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8249fec5-a469-4bcf-803b-03a622b8175f" name="Changes" comment="тжу">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo list/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo list/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo list/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo list/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/крестики-нолики/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/крестики-нолики/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +84,11 @@
       <workItem from="1727547301164" duration="840000" />
       <workItem from="1727602431196" duration="62000" />
       <workItem from="1727614518701" duration="437000" />
+      <workItem from="1727715792838" duration="235000" />
+      <workItem from="1728141141981" duration="3000" />
+      <workItem from="1728572794519" duration="6000" />
+      <workItem from="1728587090838" duration="1000" />
+      <workItem from="1728811830182" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="просто">
       <option name="closed" value="true" />
