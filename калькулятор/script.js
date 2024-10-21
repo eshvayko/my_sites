@@ -1,22 +1,22 @@
 const value = document.querySelector('#number');
 
 function read(operation) {
-    if (operation == 'C') {
+    if (operation === 'C') {
         value.value = '0';
-    } else if ((value.value == '0') && (operation !== '.')) {
-        if (operation == '<') {
+    } else if ((value.value === '0') && (operation !== '.')) {
+        if (operation === '<') {
             return;
         }
         value.value = operation;
-    } else if (operation == '<') {
-        if ((value.value == 'ошибка') || (value.value == 'Infinity') || (value.value == 'undefined')) {
+    } else if (operation === '<') {
+        if ((value.value === 'ошибка') || (value.value === 'Infinity') || (value.value === 'undefined')) {
             value.value = '0';
         }
         value.value = value.value.substring(0, value.value.length - 1);
-        if (value.value == '') {
+        if (value.value === '') {
             value.value = '0';
         }
-    } else if (operation == '=') {
+    } else if (operation === '=') {
         count();
     } else {
         value.value += operation;
