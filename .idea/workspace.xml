@@ -38,6 +38,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.script.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/evgeny/Документы/сайты/крестики-нолики&quot;,
@@ -92,6 +93,12 @@
       <workItem from="1728846232612" duration="9000" />
       <workItem from="1729350614026" duration="168000" />
       <workItem from="1729412736750" duration="154000" />
+      <workItem from="1729518644314" duration="830000" />
+      <workItem from="1729519483349" duration="35000" />
+      <workItem from="1729757447756" duration="4000" />
+      <workItem from="1729757478098" duration="168000" />
+      <workItem from="1729760657946" duration="7000" />
+      <workItem from="1729772785593" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="просто">
       <option name="closed" value="true" />
