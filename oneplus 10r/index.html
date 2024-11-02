@@ -11,22 +11,70 @@
 <body>
     <div class="container">
         <div class="oneplus">
-            <div class="right_btn"></div>
+            <div class="right_btn"><div class="squareForClick" style="width: 200px; height: 60px" onclick="turnOn()"></div></div>
             <div class="left_btn_one"></div>
             <div class="left_btn_two"></div>
             <div class="circle">
                 <div class="center-circle"></div>
             </div>
-            <div class="content">
+            <div class="content-1" style="display: block">
                 <div class="dweek"></div>
                 <div class="time"></div>
                 <div class="date"></div>
-                <div class="battery"><i class="i-battery-three-quarters"></i> 78 %</div>
-                <div class="uv"><i class="i-youtube"></i><i class="i-telegram"></i><i class="i-whatsapp"></i></div>
+                <div class="battery"><span class="batteryInfo"><i class="i-battery-3 i-battery"></i> 78 %</span></div>
+                <div class="uv"><i class="i-telegram"></i><i class="i-discord"></i><i class="i-whatsapp"></i></div>
+            </div>
+            <div class="content-2" style="display: none">
+                <span class="beeline">Beeline</span>
+                <div class="info battery" style="position: absolute; top: 12px; right: 28px; font-size: 12px;">
+                    <i class="i-bluetooth"></i>
+                    <i class="i-wifi"></i>
+                    <i class="i-signal" style="margin-bottom: 4px; font-size: 16px"></i>
+                    <span class="batteryInfo"><i class="i-battery-3 i-battery"></i> 78 %</span>
+                </div>
+                <i class="i-lock" style="position: absolute; left: 165px; top: 40px"></i>
+                <div class="timeinfo" style="margin: 50px 0 0 20px">
+                    <div class="dweek" style="font-size: 40px; margin: 0"></div>
+                    <div class="time" style="font-size: 40px; font-family: 'Roboto', sans-serif; margin: 0"></div>
+                    <div class="date" style="font-family: 'Roboto', sans-serif; font-size: 15px"></div>
+                </div>
+                <div class="google"><i class="i-google"></i></div>
+                <div class="camera"><i class="i-camera"></i></div>
+            </div>
+            <div class="content-3" style="display: none">
+                <div class="uv_time"><span id="time" style="margin-right: 7px"></span><i class="i-telegram"></i><i class="i-discord"></i><i class="i-whatsapp"></i></div>
+                <div class="info battery" style="position: absolute; top: 12px; right: 28px; font-size: 12px;">
+                    <i class="i-bluetooth"></i>
+                    <i class="i-wifi"></i>
+                    <i class="i-signal" style="margin-bottom: 4px; font-size: 16px"></i>
+                    <span class="batteryInfo"><i class="i-battery-3 i-battery" style="font-size: 15px; margin-right: 2px; margin-bottom: 1px"></i> 78 %</span>
+                </div>
+                <div class="timeinfo" style="margin: 50px 0 0 20px">
+                    <div class="dweek" style="font-size: 37px; margin-bottom: 2px"></div>
+                    <div class="time" style="font-size: 37px; font-family: 'Roboto', sans-serif; margin-bottom: 5px"></div>
+                    <div class="date" style="font-family: 'Roboto', sans-serif; font-size: 13px"></div>
+                </div>
+                <a href="https://yandex.ru/pogoda/saint-petersburg" target="_blank">
+                    <div class="weatherInfo">
+                        <span id="place">Санкт-Петербург</span><br><br>
+                        <span id="weather"><i class="i-rain weather"></i></span>
+                        <div id="temp">
+                            <span id="tempNow" style="font-size: 30px">+2&deg;</span><br>
+                            <span><span id="tempDay" style="font-size: 12px">+3&deg;</span> <span id="tempNight" style="color: #bcc6ff; font-size: 12px">-1&deg;</span></span>
+                        </div>
+                    </div>
+                </a>
+                <button class="search"><i class="i-search"></i> Поиск</button>
+                <img src="images/photo_2024-11-01_21-03-32.jpg" alt="" style="position: absolute; bottom: 50px; width: 340px; image-rendering: auto;">
+                <div class="nav-buttons">
+                    <i class="i-triangle"></i>
+                    <i class="i-square"></i>
+                    <i class="i-menu" style="font-size: 14px"></i>
+                </div>
             </div>
             <div class="finger"><i class="i-finger" onclick="unlock()"></i></div>
         </div>
-        <div class="text">Oneplus 10R 5G</div>
+        <a href="https://oneplus.com.ru/10r/specs?ysclid=m2rxgxrxgo87743018" target="_blank"><div class="text">Oneplus 10R 5G</div></a>
     </div>
     <script src="script.js"></script>
 </body>    

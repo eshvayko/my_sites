@@ -6,6 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="8249fec5-a469-4bcf-803b-03a622b8175f" name="Changes" comment="тжу">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oneplus 10r/css/iconsfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/oneplus 10r/css/iconsfont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oneplus 10r/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/oneplus 10r/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oneplus 10r/fonts/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/oneplus 10r/fonts/iconfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oneplus 10r/fonts/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/oneplus 10r/fonts/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oneplus 10r/fonts/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/oneplus 10r/fonts/iconfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oneplus 10r/fonts/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/oneplus 10r/fonts/iconfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oneplus 10r/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/oneplus 10r/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oneplus 10r/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/oneplus 10r/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo list/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/todo list/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo list/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo list/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/калькулятор/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/калькулятор/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +48,13 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html (1).executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.list to Kostroma.html.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.script.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/evgeny/Документы/сайты/крестики-нолики&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/evgeny/Документы/сайты/список в Кострому&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -52,8 +65,27 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/список в Кострому" />
       <recent name="$PROJECT_DIR$/крестики-нолики" />
     </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/сайты/test/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/сайты/oneplus 10r/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test/script.js" working-dir="$PROJECT_DIR$/test">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="Node.js.script.js" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -99,6 +131,38 @@
       <workItem from="1729757478098" duration="168000" />
       <workItem from="1729760657946" duration="7000" />
       <workItem from="1729772785593" duration="17000" />
+      <workItem from="1729792927610" duration="2243000" />
+      <workItem from="1729795229231" duration="2473000" />
+      <workItem from="1729846211818" duration="690000" />
+      <workItem from="1730041470380" duration="3071000" />
+      <workItem from="1730052290390" duration="321000" />
+      <workItem from="1730053585973" duration="679000" />
+      <workItem from="1730054290448" duration="385000" />
+      <workItem from="1730054983884" duration="493000" />
+      <workItem from="1730123156099" duration="2107000" />
+      <workItem from="1730137712850" duration="1497000" />
+      <workItem from="1730192923202" duration="315000" />
+      <workItem from="1730198919529" duration="1337000" />
+      <workItem from="1730201603326" duration="3613000" />
+      <workItem from="1730205640606" duration="582000" />
+      <workItem from="1730220425356" duration="4464000" />
+      <workItem from="1730278696861" duration="4623000" />
+      <workItem from="1730299953893" duration="5010000" />
+      <workItem from="1730308048294" duration="176000" />
+      <workItem from="1730308399423" duration="420000" />
+      <workItem from="1730308825693" duration="350000" />
+      <workItem from="1730309183527" duration="4989000" />
+      <workItem from="1730314207510" duration="2493000" />
+      <workItem from="1730362438070" duration="3208000" />
+      <workItem from="1730365885360" duration="83000" />
+      <workItem from="1730383501939" duration="1037000" />
+      <workItem from="1730393573785" duration="6783000" />
+      <workItem from="1730453218935" duration="2010000" />
+      <workItem from="1730473458785" duration="4644000" />
+      <workItem from="1730482420844" duration="8672000" />
+      <workItem from="1730491128230" duration="597000" />
+      <workItem from="1730538235054" duration="5752000" />
+      <workItem from="1730549998085" duration="7415000" />
     </task>
     <task id="LOCAL-00001" summary="просто">
       <option name="closed" value="true" />
@@ -137,6 +201,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="просто" />

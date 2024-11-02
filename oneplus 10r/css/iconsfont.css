@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'iconfont';
-  src:  url('../fonts/iconfont.eot?rykgvc');
-  src:  url('../fonts/iconfont.eot?rykgvc#iefix') format('embedded-opentype'),
-    url('../fonts/iconfont.ttf?rykgvc') format('truetype'),
-    url('../fonts/iconfont.woff?rykgvc') format('woff'),
-    url('../fonts/iconfont.svg?rykgvc#iconfont') format('svg');
+  src:  url('../fonts/iconfont.eot?ed9hsj');
+  src:  url('../fonts/iconfont.eot?ed9hsj#iefix') format('embedded-opentype'),
+    url('../fonts/iconfont.ttf?ed9hsj') format('truetype'),
+    url('../fonts/iconfont.woff?ed9hsj') format('woff'),
+    url('../fonts/iconfont.svg?ed9hsj#iconfont') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -37,15 +37,75 @@
 .i-telegram:before {
   content: "\e903";
 }
-.i-finger:before {
+.i-sun:before {
   content: "\e904";
+  color: orange;
+}
+.i-square:before {
+  content: "\e905";
+  margin: 0 70px 0 70px;
+}
+.i-moon:before {
+  content: "\e906";
+  color: orange;
+}
+.i-menu:before {
+  content: "\e907";
+}
+.i-search:before {
+  content: "\e908";
+}
+.i-lock:before {
+  content: "\e909";
+}
+.i-finger:before {
+  content: "\e90a";
+}
+.i-google:before {
+  content: "\e90b";
 }
 .i-discord:before {
-  content: "\e905";
+  content: "\e90c";
 }
-.i-battery-three-quarters:before {
-  content: "\e906";
+.i-cloud:before {
+  content: "\e90d";
 }
-.i-battery-three:before {
-  content: "\e907";
+.i-rain:before {
+  content: "\e90e";
+}
+.i-snow:before {
+  content: "\e90f";
+}
+.i-thunderstorm:before {
+  content: "\e910";
+}
+.i-camera:before {
+  content: "\e911";
+}
+.i-wifi:before {
+  content: "\e912";
+}
+.i-signal:before {
+  content: "\e913";
+}
+.i-bluetooth:before {
+  content: "\e914";
+}
+.i-battery-3:before {
+  content: "\e915";
+}
+.i-battery-1:before {
+  content: "\e916";
+}
+.i-battery-2:before {
+  content: "\e917";
+}
+.i-battery-4:before {
+  content: "\e918";
+}
+.i-battery-0:before {
+  content: "\e919";
+}
+.i-triangle:before {
+  content: "\e91a";
 }

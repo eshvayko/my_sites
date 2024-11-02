@@ -2,46 +2,50 @@
     font-family: 'Roboto';
     src: url(../fonts_/Roboto/Roboto-Regular.ttf);
 }
-
 @font-face {
     font-family: 'Roboto_';
     src: url(../fonts_/Roboto/Roboto-Light.ttf);
 }
-
 @font-face {
     font-family: 'haas';
     src: url(../fonts_/Neue_Haas_Grotesk/NHaasGroteskDSPro-45Lt.otf);
 }
-
 @font-face {
     font-family: 'haas_';
     src: url(../fonts_/Neue_Haas_Grotesk/NHaasGroteskDSPro-65Md.otf);
 }
-
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     color: white;
     user-select: none;
+}
+html, body, .nav-buttons, .circle, .google, .camera, .battery, .batteryInfo {
+    display: flex;
+    align-items: center;
+}
+html, body, .nav-buttons, .circle, .google, .camera {
+    justify-content: center;
+}
+#temp, .dweek, .twone-1, .battery, .search {
+    font-family: 'Roboto', sans-serif;
+}
+.container, .oneplus, .battery {
+    position: relative;
+}
+.right_btn, .right_btn, .left_btn_one, .left_btn_two, .nav-buttons, .weatherInfo, #temp, .beeline, .uv_time, .finger, .search, .google, .camera, .text {
+    position: absolute;
 }
 
 html, body {
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background: #00000a;
 }
 
-.container {
-    position: relative;
-}
-
 .oneplus {
-    position: relative;
-    border-radius: 42px;
+    border-radius: 40px;
     border: 10px solid #1e1c1d;
     width: 360px;
     height: 744px;
@@ -49,7 +53,6 @@ html, body {
 }
 
 .right_btn {
-    position: absolute;
     right: -12px;
     top: 280px;
     width: 3px;
@@ -59,9 +62,8 @@ html, body {
 }
 
 .left_btn_one {
-    position: absolute;
     left: -12px;
-    top: 250px;
+    top: 240px;
     width: 3px;
     height: 45px;
     border-radius: 100px;
@@ -69,21 +71,48 @@ html, body {
 }
 
 .left_btn_two {
-    position: absolute;
     left: -12px;
-    top: 303px;
+    top: 293px;
     width: 3px;
     height: 45px;
     border-radius: 100px;
     background: #252323;
 }
 
+.nav-buttons {
+    width: 100%;
+    bottom: 20px;
+    left: 0;
+}
+
+.nav-buttons i {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.weatherInfo {
+    top: 275px;
+    left: 20px;
+}
+
+#weather {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+#place {
+    font: 600 12px sans-serif;
+    margin-bottom: 10px;
+}
+
+#temp {
+    width: 60px;
+    top: 20px;
+    left: 90px;
+}
 
 .circle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 14px;
+    margin-top: 10px;
     margin-left: 162px;
     border-radius: 50%;
     width: 20px;
@@ -99,20 +128,51 @@ html, body {
     background: rgba(255, 255, 255, 0.2);
 }
 
-.content {
-    opacity: 0.65;
-    margin-top: 240px;
+.content-1 {
+    opacity: 0;
+    transform: scale(0.9, 0.9);
+    margin-top: 47px;
     padding-left: 17px;
 }
 
+@keyframes appear {
+    to {
+        transform: scale(1, 1);
+        opacity: 0.55;
+    }
+}
+
+@keyframes appear-finger {
+    to {
+        opacity: 0.4;
+    }
+}
+
+.beeline {
+    top: 15px;
+    left: 28px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.uv_time {
+    top: 15px;
+    left: 28px;
+    font-size: 11px;
+    font-family: sans-serif;
+}
+
+.uv_time i {
+    margin-right: 7px;
+}
+
 .dweek {
-    font-family: 'Roboto';
     font-size: 35px;
     margin-bottom: 8px;
 }
 
 .time {
-    font-family: 'haas';
+    font-family: 'haas', sans-serif;
     font-size: 32px;
     margin-bottom: 10px;
 }
@@ -121,20 +181,36 @@ html, body {
     color: #c91343;
 }
 
+.one-1 {
+    color: red;
+}
+
 .date {
-    font-family: 'Roboto_';
+    font-family: 'Roboto_', sans-serif;
     font-size: 17px;
     margin-bottom: 24px;
 }
 
 .twone {
-    font-family: 'haas';
+    font-family: 'haas', sans-serif;
 }
 
 .battery {
-    font-family: 'Roboto';
     font-size: 15px;
     margin-bottom: 10px;
+}
+
+.i-battery {
+    margin: 0 3px 1px 0;
+}
+
+.content-2 .i-battery, .content-3 .i-battery {
+    margin-top: 1px;
+}
+
+.i-bluetooth, .i-wifi, .i-signal {
+    margin-right: 2px;
+    font-size: 14px;
 }
 
 .uv i {
@@ -143,30 +219,63 @@ html, body {
 }
 
 .finger {
-    width: 340px;
+    width: 50px;
     height: 50px;
     font-size: 50px;
-    position: absolute;
-    bottom: 53px;
-    left: 0;
+    bottom: 45px;
+    left: 145px;
     text-align: center;
+    border-radius: 50%;
 }
 
 .i-finger {
     border-radius: 50%;
-    opacity: 0.4;
+    opacity: 0;
 }
 
-.i-finger:active {
+.finger:active {
     background: white;
-    opacity: 1;
+}
+
+.search {
+    width: 65px;
+    height: 25px;
+    border-radius: 100px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    bottom: 127px;
+    left: 137px;
+    font-size: 10px;
+}
+
+.search:active {
+    background-color: rgba(255, 255, 255, 0.55);
+}
+
+.google, .camera {
+    bottom: 22px;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.i-google, .i-camera {
+    font-size: 14px;
+}
+
+.google {
+    left: 22px;
+}
+
+.camera {
+    right: 22px;
 }
 
 .text {
     width: 360px;
     font-size: 20px;
-    position: absolute;
     bottom: -60px;
-    font-family: 'haas_';
+    font-family: 'haas_', sans-serif;
     text-align: center;
 }
