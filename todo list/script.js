@@ -5,7 +5,10 @@ const list = document.querySelector('.list');
 if (localStorage.getItem('maxtasks') === undefined) {
     localStorage.setItem('maxtasks', 0);
 }
-let tasks = localStorage.length - 1;
+if (localStorage.getItem('tasks') === undefined) {
+    localStorage.setItem('tasks', 0);
+}
+let tasks = Number(localStorage.getItem('tasks'));
 let maxtasks = localStorage.getItem('maxtasks');
 loadTasks();
 let completeTasks = countCompleteTasks();
@@ -51,6 +54,7 @@ function addTask() {
         localStorage.setItem(`task${tasks}`, `<li class="task${tasks}"><i class="i-check" onclick="checkTask(${tasks})" style="margin-right:10px"></i><span class="text">${input.value}</span><span class="buttonsli"><i class="i-pen" onclick="editTask(${tasks})" style="margin-right: 10px"></i><i class="i-trash-can" onclick="deleteTask(${tasks})"></i></span></li>`);
         input.value = '';
         tasks++;
+        localStorage.setItem('tasks', tasks);
         if (tasks > maxtasks) {
             maxtasks = tasks;
             localStorage.setItem('maxtasks', maxtasks);
@@ -65,6 +69,7 @@ function deleteTask(num) {
     }
     document.querySelector(`.task${num}`).remove();
     tasks--;
+    localStorage.setItem('tasks', tasks);
     countPersent();
     localStorage.removeItem(`task${num}`);
 }
@@ -72,6 +77,7 @@ function deleteTask(num) {
 function deleteAll() {
     list.innerHTML = '';
     tasks = 0;
+    localStorage.setItem('tasks', tasks);
     completeTasks = 0;
     countPersent();
     localStorage.clear();
@@ -94,6 +100,7 @@ function deleteDoneTasks() {
                 document.querySelector(`.task${num}`).remove();
                 completeTasks--;
                 tasks--;
+                localStorage.setItem('tasks', tasks);
                 countPersent();
                 localStorage.removeItem(`task${num}`);
             }
