@@ -3,11 +3,12 @@ const mainBtn = document.querySelector('.main-btn');
 let i = 0;
 let score = 0;
 
-let record = 888; // 7.481
+let record = 7.419;
 let time1;
 let time2;
 
 function play() {
+    deleteAnimationBody();
     level = document.querySelector('#levelInfo').innerHTML
     document.querySelector('.container').style.display = 'none';
     mainBtn.setAttribute('style', 'display: block; z-index: 999');
@@ -16,6 +17,7 @@ function play() {
 }
 
 function playTimeGame() {
+    deleteAnimationBody();
     document.querySelector('.container').style.display = 'none';
     mainBtn.setAttribute('style', 'display: block; z-index: 999');
     time1 = new Date().getTime();
@@ -83,6 +85,7 @@ function runTimeGame() {
         document.querySelector('.container').style.display = 'flex';
         mainBtn.setAttribute('style', 'display: none;');
         document.querySelector('#time').innerHTML = `${time} сек`;
+        i = 0;
     }
 }
 
@@ -106,15 +109,25 @@ function setLevel(level) {
     document.querySelector('#levelInfo').innerHTML = level;
 }
 
-function effect(color) {
+function deleteAnimationBody() {
     document.body.style.animation = 'none';
     document.body.offsetHeight; // это типа запрос перепрошивки сайта (наверное)
     document.body.style.animation = null; // эти 3 строки удаляют animation у body чтобы можно было повторно ее использовать
+}
+
+function effect(color) {
+    deleteAnimationBody();
     if (color === 'green') {
         document.body.style.animation = 'green-background linear 0.5s';
+        let audio = new Audio('sounds/lobotomy-sound-effect.mp3');
+        audio.play();
     } else if (color === 'red') {
         document.body.style.animation = 'red-background linear 0.5s';
+        let audio = new Audio('sounds/puk-v-ekho.mp3');
+        audio.play();
     } else if (color === 'record') {
         document.body.style = 'animation: record linear 2s; animation-iteration-count: infinite;';
+        let audio = new Audio('sounds/uiiaiuuuiai.mp3')
+        audio.play();
     }
 }

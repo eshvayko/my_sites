@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <button id="back" onclick="changeInfoBlock([1, 2, 3, 'TimeGame', 'TimeGame2'], 0)" style="display: none">⟵ Вернуться в начало</button>
+        <button id="back" onclick="changeInfoBlock([1, 2, 3, 'TimeGame', 'TimeGame2'], 0); deleteAnimationBody();" style="display: none">⟵ Вернуться в начало</button>
         <div class="container2">
             <div class="info0">
                 <span style="font-size: 20px">Выберите игру:</span><br>
@@ -21,7 +21,8 @@
             </div>
             <div class="infoTimeGame2" style="display: none">
                 <div class="recordInfo" style="font-size: 20px; margin-bottom: 20px">Рекорд<span class="record1"></span></div>
-                <div class="timeAfterPlay">Ваше время - <span id="time"></span></div>
+                <div class="timeAfterPlay">Ваше время - <span id="time"></span></div><br>
+                <button onclick="playTimeGame()" style="height: 50px; width: 200px; margin-right: 20px; font-size: 15px">Играть еще раз</button>
             </div>
             <div class="info1" style="display: none">
                 <span style="font-size: 20px">Выберите уровень:</span><br>
