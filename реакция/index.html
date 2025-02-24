@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Проверка реакции</title>
+</head>
+<body>
+    <div class="container">
+        <button id="back" onclick="changeInfoBlock([1, 2, 3, 'TimeGame', 'TimeGame2'], 0)" style="display: none">⟵ Вернуться в начало</button>
+        <div class="container2">
+            <div class="info0">
+                <span style="font-size: 20px">Выберите игру:</span><br>
+                <button style="height: 35px; width: 120px; margin-top: 20px; font-size: 17px" onclick="changeInfoBlock([0], 'TimeGame')">На время</button>
+                <button style="height: 35px; width: 120px; margin-left: 10px; font-size: 17px" onclick="changeInfoBlock([0], 1)">По уровням</button>
+            </div>
+            <div class="infoTimeGame" style="display: none">
+                <div class="recordInfo" style="font-size: 20px; margin-bottom: 20px">Рекорд - <span class="record"></span></div>
+                <button style="width: 120px; height: 30px; font-size: 15px" onclick="playTimeGame()">Играть</button>
+            </div>
+            <div class="infoTimeGame2" style="display: none">
+                <div class="recordInfo" style="font-size: 20px; margin-bottom: 20px">Рекорд<span class="record1"></span></div>
+                <div class="timeAfterPlay">Ваше время - <span id="time"></span></div>
+            </div>
+            <div class="info1" style="display: none">
+                <span style="font-size: 20px">Выберите уровень:</span><br>
+                <button class="levelBtn" onclick="setLevel(1)">1</button>
+                <button class="levelBtn" style="margin-left: 10px" onclick="setLevel(2)">2</button>
+                <button class="levelBtn" style="margin-left: 10px" onclick="setLevel(3)">3</button>
+                <button class="levelBtn" style="margin-left: 10px" onclick="setLevel(4)">4</button>
+                <button class="levelBtn" style="margin-left: 10px" onclick="setLevel(5)">5</button>
+            </div>
+            <div class="info2" style="display: none">
+                <div style="font-size: 20px">Уровень - <span id="levelInfo"></span></div><br>
+                <button class="backBtn" onclick="changeInfoBlock([2], 1)" style="margin-right: 15px">⟵ Назад</button>
+                <button class="start_btn" onclick="play()">Играть</button>
+            </div>
+            <div class="info3" style="display: none">
+                <div style="font-size: 25px">Уровень - <span id="levelInfo1"></span></div><br>
+                <div style="font-size: 20px; margin-bottom: 20px">Очки - <span id="scoreInfo"></span>/10</div><br>
+                <button onclick="play()" style="height: 50px; width: 200px; margin-right: 20px; font-size: 15px">Играть еще раз</button>
+                <button onclick="changeInfoBlock([3], 1)" style="height: 50px; width: 200px; font-size: 15px">Выбрать другой уровень</button>
+            </div>
+        </div>
+    </div>
+    <button class="main-btn" style="display: none">Я тут!</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
