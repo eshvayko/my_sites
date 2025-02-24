@@ -5,13 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8249fec5-a469-4bcf-803b-03a622b8175f" name="Changes" comment="тжу">
+      <change afterPath="$PROJECT_DIR$/реакция/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/реакция/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo list/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo list/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oneplus 10r/images/photo_2024-11-02_13-41-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oneplus 10r/images/максим2.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,13 +50,18 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;JavaScript Debug.index.html (1).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html (2).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html (3).executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.list to Kostroma.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.script.js (1).executor&quot;: &quot;Run&quot;,
     &quot;Node.js.script.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/evgeny/Документы/сайты/список в Кострому&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/eshvayko/Документы/сайты&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -55,15 +72,22 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/реакция" />
       <recent name="$PROJECT_DIR$/список в Кострому" />
       <recent name="$PROJECT_DIR$/крестики-нолики" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/сайты/test/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/сайты/oneplus 10r/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/сайты/реакция/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/сайты/поржать (бонус)/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="script.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/реакция/script.js" working-dir="$PROJECT_DIR$/реакция">
       <method v="2" />
     </configuration>
     <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test/script.js" working-dir="$PROJECT_DIR$/test">
@@ -71,9 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (3)" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="Node.js.script.js (1)" />
         <item itemvalue="Node.js.script.js" />
-        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +180,48 @@
       <workItem from="1730538235054" duration="5752000" />
       <workItem from="1730549998085" duration="7415000" />
       <workItem from="1730558948046" duration="2796000" />
-      <workItem from="1730630012448" duration="330000" />
+      <workItem from="1730630012448" duration="371000" />
+      <workItem from="1730643072807" duration="940000" />
+      <workItem from="1730657562468" duration="6000" />
+      <workItem from="1730815949586" duration="2081000" />
+      <workItem from="1730824219807" duration="4553000" />
+      <workItem from="1730898607317" duration="14000" />
+      <workItem from="1730902742843" duration="95000" />
+      <workItem from="1730913452274" duration="111000" />
+      <workItem from="1730913736781" duration="1666000" />
+      <workItem from="1731001191521" duration="700000" />
+      <workItem from="1731161987785" duration="87000" />
+      <workItem from="1731172055388" duration="263000" />
+      <workItem from="1731505499813" duration="183000" />
+      <workItem from="1731770532294" duration="1000" />
+      <workItem from="1732103551996" duration="19000" />
+      <workItem from="1734018345808" duration="6000" />
+      <workItem from="1734262532820" duration="58000" />
+      <workItem from="1734861806592" duration="24000" />
+      <workItem from="1735302062892" duration="55000" />
+      <workItem from="1735837299805" duration="603000" />
+      <workItem from="1735900797730" duration="2000" />
+      <workItem from="1735982751292" duration="5000" />
+      <workItem from="1736426045281" duration="32000" />
+      <workItem from="1736433166267" duration="1000" />
+      <workItem from="1737479480224" duration="11000" />
+      <workItem from="1737910036886" duration="1000" />
+      <workItem from="1737986216242" duration="63000" />
+      <workItem from="1738512569078" duration="1000" />
+      <workItem from="1738861144056" duration="2000" />
+      <workItem from="1739035647435" duration="570000" />
+      <workItem from="1739100544328" duration="445000" />
+      <workItem from="1739455913585" duration="72000" />
+      <workItem from="1739900017574" duration="8000" />
+      <workItem from="1739952200753" duration="1000" />
+      <workItem from="1740236850715" duration="1413000" />
+      <workItem from="1740238273881" duration="2242000" />
+      <workItem from="1740247282368" duration="5068000" />
+      <workItem from="1740255185020" duration="4000" />
+      <workItem from="1740311193980" duration="2065000" />
+      <workItem from="1740316233134" duration="111000" />
+      <workItem from="1740316367242" duration="20606000" />
+      <workItem from="1740386222396" duration="6340000" />
     </task>
     <task id="LOCAL-00001" summary="просто">
       <option name="closed" value="true" />

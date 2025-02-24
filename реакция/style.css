@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Ubuntu-L';
+    src: url('Ubuntu/Ubuntu-Light.ttf');
+}
+
+* {
+    font-family: 'Ubuntu-L', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html, body, .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    height: 350px;
+    background-color: rgba(145, 145, 145, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.start_btn, .backBtn {
+    width: 80px;
+    height: 45px;
+    font-size: 15px;
+}
+
+.main-btn {
+    width: 55px;
+    height: 20px;
+}
+
+.levelBtn {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.info0, .info1, .info2, .info3, .infoTimeGame, .infoTimeGame2 {
+    text-align: center;
+}
+
+#back {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+@keyframes red-background {
+    0% {
+        background-color: white;
+    }
+    1% {
+        background-color: #ff7f7f;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+@keyframes green-background {
+    0% {
+        background-color: white;
+    }
+    1% {
+        background-color: #7bff7b;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+@keyframes record {
+    50% {
+        background-color: #60abff;
+    }
+    100% {
+        background-color: white;
+    }
+}
