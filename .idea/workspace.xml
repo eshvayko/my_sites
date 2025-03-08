@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8249fec5-a469-4bcf-803b-03a622b8175f" name="Changes" comment="тумбаюмба x3">
+    <list default="true" id="8249fec5-a469-4bcf-803b-03a622b8175f" name="Changes" comment="kyoto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/реакция/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/реакция/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,6 +223,8 @@
       <workItem from="1740415513623" duration="4000" />
       <workItem from="1740415740715" duration="1424000" />
       <workItem from="1740484487022" duration="283000" />
+      <workItem from="1740923259503" duration="168000" />
+      <workItem from="1741354016524" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="просто">
       <option name="closed" value="true" />
@@ -281,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740417157878</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="kyoto">
+      <option name="closed" value="true" />
+      <created>1740923413033</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740923413033</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +313,7 @@
     <MESSAGE value="тумбаюмба" />
     <MESSAGE value="тумбаюмба x2" />
     <MESSAGE value="тумбаюмба x3" />
-    <option name="LAST_COMMIT_MESSAGE" value="тумбаюмба x3" />
+    <MESSAGE value="kyoto" />
+    <option name="LAST_COMMIT_MESSAGE" value="kyoto" />
   </component>
 </project>

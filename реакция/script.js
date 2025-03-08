@@ -9,10 +9,10 @@ let time2;
 
 function play() {
     deleteAnimationBody();
-    level = document.querySelector('#levelInfo').innerHTML
+    let level = document.querySelector('#levelInfo').innerHTML
     document.querySelector('.container').style.display = 'none';
     mainBtn.setAttribute('style', 'display: block; z-index: 999');
-    time = setTime(level)
+    let time = setTime(level)
     run(time, false);
 }
 
@@ -39,10 +39,10 @@ function setTime(level) {
 }
 
 function changePosition() {
-    width = window.innerWidth;
-    height = window.innerHeight;
-    x = Math.floor(Math.random() * (width - 55));
-    y = Math.floor(Math.random() * (height - 20));
+    let width = window.innerWidth;
+    let height = window.innerHeight;
+    let x = Math.floor(Math.random() * (width - 55));
+    let y = Math.floor(Math.random() * (height - 20));
     mainBtn.style = `position: absolute; top: ${y}px; left: ${x}px;`;
 }
 
@@ -53,7 +53,7 @@ function run(time, a= true) {
     changePosition();
     i++;
     if (i <= 10) {
-        t = setTimeout(run, time, time);
+        let t = setTimeout(run, time, time);
         mainBtn.onclick = () => {clearTimeout(t); score++; run(time, false); effect('green')};
     } else {
         document.querySelector('.container').style.display = 'flex';
