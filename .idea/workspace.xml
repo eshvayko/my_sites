@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8249fec5-a469-4bcf-803b-03a622b8175f" name="Changes" comment="kyoto">
+      <change afterPath="$PROJECT_DIR$/500/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,9 +17,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
+        <option value="JSX File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -32,7 +35,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/eshvayko/ya.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/eshvayko/my_sites&quot;,
     &quot;accountId&quot;: &quot;b097df26-0a77-48d3-9aeb-d911215200b9&quot;
   }
 }</component>
@@ -47,62 +50,76 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.fff.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html (1).executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html (2).executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html (3).executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.list to Kostroma.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.index.js (1).executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.index.js (2).executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.script.js (1).executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.script.js (2).executor&quot;: &quot;Run&quot;,
     &quot;Node.js.script.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.video.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/eshvayko/Документы/сайты&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/eshvayko/WebstormProjects/my_sites/накидыши score-analyzer web&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/eshvayko/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/накидыши score-analyzer web" />
       <recent name="$PROJECT_DIR$/реакция" />
       <recent name="$PROJECT_DIR$/список в Кострому" />
       <recent name="$PROJECT_DIR$/крестики-нолики" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/обучение/интернет-магазин_из_видоса/server" />
+      <recent name="$PROJECT_DIR$/обучение/react-project/src/components/Header" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/сайты/test/index.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/my_sites/500/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/сайты/реакция/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/my_sites/car/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/сайты/поржать (бонус)/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/my_sites/шарики/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="script.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/реакция/script.js" working-dir="$PROJECT_DIR$/реакция">
+    <configuration name="index.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test/index.js" working-dir="$PROJECT_DIR$/test">
       <method v="2" />
     </configuration>
-    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test/script.js" working-dir="$PROJECT_DIR$/test">
+    <configuration name="video.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test/video.js" working-dir="$PROJECT_DIR$/test">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
-        <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="Node.js.script.js (1)" />
-        <item itemvalue="Node.js.script.js" />
+        <item itemvalue="Node.js.index.js (2)" />
+        <item itemvalue="Node.js.video.js" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.22855.79" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.26830.93" />
       </set>
     </attachedChunks>
   </component>
@@ -225,6 +242,141 @@
       <workItem from="1740484487022" duration="283000" />
       <workItem from="1740923259503" duration="168000" />
       <workItem from="1741354016524" duration="2000" />
+      <workItem from="1753427217615" duration="448000" />
+      <workItem from="1753456485179" duration="1867000" />
+      <workItem from="1753616403507" duration="1730000" />
+      <workItem from="1753972256056" duration="28000" />
+      <workItem from="1753972287411" duration="3000" />
+      <workItem from="1754052628086" duration="1120000" />
+      <workItem from="1754054413424" duration="15000" />
+      <workItem from="1754061052732" duration="4000" />
+      <workItem from="1754062516743" duration="2159000" />
+      <workItem from="1754124652855" duration="190000" />
+      <workItem from="1754124954556" duration="177000" />
+      <workItem from="1754128518096" duration="769000" />
+      <workItem from="1754131040192" duration="350000" />
+      <workItem from="1754224244790" duration="30000" />
+      <workItem from="1754227897128" duration="2601000" />
+      <workItem from="1754230714176" duration="347000" />
+      <workItem from="1754231067773" duration="53000" />
+      <workItem from="1754231125198" duration="19000" />
+      <workItem from="1754231149155" duration="2033000" />
+      <workItem from="1754293804178" duration="2079000" />
+      <workItem from="1754296305728" duration="2851000" />
+      <workItem from="1754304029005" duration="3736000" />
+      <workItem from="1754309446218" duration="3000" />
+      <workItem from="1754321165740" duration="1242000" />
+      <workItem from="1754322473202" duration="1086000" />
+      <workItem from="1754323727540" duration="350000" />
+      <workItem from="1754378461099" duration="65000" />
+      <workItem from="1754379398684" duration="4507000" />
+      <workItem from="1754383967270" duration="889000" />
+      <workItem from="1754386774997" duration="10782000" />
+      <workItem from="1754415763694" duration="3000" />
+      <workItem from="1754469721172" duration="52000" />
+      <workItem from="1754470877047" duration="4008000" />
+      <workItem from="1754480035562" duration="526000" />
+      <workItem from="1754482363943" duration="6007000" />
+      <workItem from="1754494245955" duration="5823000" />
+      <workItem from="1754553580753" duration="6741000" />
+      <workItem from="1754569957772" duration="492000" />
+      <workItem from="1754570454125" duration="620000" />
+      <workItem from="1754589319400" duration="623000" />
+      <workItem from="1754661783572" duration="1178000" />
+      <workItem from="1754663135674" duration="5831000" />
+      <workItem from="1754723516116" duration="5198000" />
+      <workItem from="1754737500746" duration="622000" />
+      <workItem from="1754739335794" duration="809000" />
+      <workItem from="1754740247406" duration="42000" />
+      <workItem from="1754740296283" duration="1489000" />
+      <workItem from="1754746424510" duration="1366000" />
+      <workItem from="1754747830017" duration="188000" />
+      <workItem from="1754748067000" duration="85000" />
+      <workItem from="1754748160853" duration="289000" />
+      <workItem from="1754748508860" duration="93000" />
+      <workItem from="1754748745211" duration="9000" />
+      <workItem from="1754751032143" duration="6473000" />
+      <workItem from="1754759087847" duration="541000" />
+      <workItem from="1754759700751" duration="732000" />
+      <workItem from="1754813153881" duration="700000" />
+      <workItem from="1754821262152" duration="11934000" />
+      <workItem from="1754837768598" duration="348000" />
+      <workItem from="1754842390548" duration="44000" />
+      <workItem from="1754842589585" duration="18000" />
+      <workItem from="1754846930549" duration="17000" />
+      <workItem from="1754900401254" duration="5659000" />
+      <workItem from="1754918948086" duration="8000" />
+      <workItem from="1755068932108" duration="3000" />
+      <workItem from="1755076078168" duration="43000" />
+      <workItem from="1755076265475" duration="17000" />
+      <workItem from="1755175130957" duration="2522000" />
+      <workItem from="1755184201840" duration="1155000" />
+      <workItem from="1755505092965" duration="28000" />
+      <workItem from="1755605295968" duration="4867000" />
+      <workItem from="1755611788264" duration="5076000" />
+      <workItem from="1755672982631" duration="16071000" />
+      <workItem from="1755704648028" duration="3504000" />
+      <workItem from="1756019113353" duration="1641000" />
+      <workItem from="1756024631694" duration="724000" />
+      <workItem from="1756029665310" duration="3000" />
+      <workItem from="1756278008872" duration="884000" />
+      <workItem from="1756294676588" duration="760000" />
+      <workItem from="1756295449677" duration="20000" />
+      <workItem from="1756821780844" duration="695000" />
+      <workItem from="1756822667368" duration="29000" />
+      <workItem from="1756833461345" duration="1876000" />
+      <workItem from="1756919635337" duration="3780000" />
+      <workItem from="1756997835409" duration="7000" />
+      <workItem from="1756997912728" duration="24000" />
+      <workItem from="1756998243337" duration="1289000" />
+      <workItem from="1757005510655" duration="1974000" />
+      <workItem from="1757075544542" duration="3000" />
+      <workItem from="1757078480802" duration="609000" />
+      <workItem from="1757079130566" duration="5000" />
+      <workItem from="1757079170995" duration="724000" />
+      <workItem from="1757086967872" duration="9000" />
+      <workItem from="1757165202476" duration="3000" />
+      <workItem from="1757176696501" duration="13000" />
+      <workItem from="1757228337962" duration="4000" />
+      <workItem from="1757228585422" duration="2000" />
+      <workItem from="1757231723440" duration="3000" />
+      <workItem from="1757256201831" duration="3000" />
+      <workItem from="1757340807671" duration="23000" />
+      <workItem from="1757341880102" duration="28000" />
+      <workItem from="1757426803085" duration="50000" />
+      <workItem from="1757433840213" duration="6000" />
+      <workItem from="1757946321962" duration="21000" />
+      <workItem from="1757957073590" duration="871000" />
+      <workItem from="1757957957410" duration="13000" />
+      <workItem from="1758391515080" duration="1778000" />
+      <workItem from="1758438662273" duration="336000" />
+      <workItem from="1758734266811" duration="3295000" />
+      <workItem from="1758808174088" duration="5000" />
+      <workItem from="1758818145458" duration="2188000" />
+      <workItem from="1758820454569" duration="3000" />
+      <workItem from="1759047489151" duration="3785000" />
+      <workItem from="1759051618382" duration="129000" />
+      <workItem from="1759252192885" duration="711000" />
+      <workItem from="1759325789822" duration="199000" />
+      <workItem from="1759411420678" duration="662000" />
+      <workItem from="1759422199548" duration="11000" />
+      <workItem from="1759608223166" duration="27000" />
+      <workItem from="1759647378657" duration="4000" />
+      <workItem from="1760109820384" duration="1475000" />
+      <workItem from="1760113798649" duration="3000" />
+      <workItem from="1760118586429" duration="2804000" />
+      <workItem from="1760123737802" duration="661000" />
+      <workItem from="1760202995406" duration="6000" />
+      <workItem from="1760717187188" duration="3547000" />
+      <workItem from="1760794991661" duration="4000" />
+      <workItem from="1761197993553" duration="5067000" />
+      <workItem from="1761214347306" duration="7000" />
+      <workItem from="1761416343316" duration="835000" />
+      <workItem from="1761417211886" duration="2000" />
+      <workItem from="1761903447493" duration="20000" />
+      <workItem from="1761903483996" duration="190000" />
+      <workItem from="1761981904180" duration="56000" />
+      <workItem from="1762176521012" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="просто">
       <option name="closed" value="true" />
@@ -295,6 +447,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
