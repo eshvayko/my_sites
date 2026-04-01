@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8249fec5-a469-4bcf-803b-03a622b8175f" name="Changes" comment="kyoto">
-      <change afterPath="$PROJECT_DIR$/500/index.html" afterDir="false" />
+    <list default="true" id="8249fec5-a469-4bcf-803b-03a622b8175f" name="Changes" comment="adding 500 internal server error page, balls and car">
+      <change afterPath="$PROJECT_DIR$/поржать (бонус)/ауди/chicken-on-tree-screaming.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/что-то прикольное/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/калькулятор/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/калькулятор/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +21,8 @@
       <list>
         <option value="JSX File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -54,11 +56,14 @@
     &quot;JavaScript Debug.index.html (1).executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html (2).executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html (3).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html (4).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html (5).executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.list to Kostroma.html.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.index.js (1).executor&quot;: &quot;Run&quot;,
     &quot;Node.js.index.js (2).executor&quot;: &quot;Run&quot;,
     &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.retad.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.script.js (1).executor&quot;: &quot;Run&quot;,
     &quot;Node.js.script.js (2).executor&quot;: &quot;Run&quot;,
     &quot;Node.js.script.js.executor&quot;: &quot;Run&quot;,
@@ -67,19 +72,21 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/eshvayko/WebstormProjects/my_sites/накидыши score-analyzer web&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/eshvayko/WebstormProjects/my_sites/test&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/home/eshvayko/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/накидыши score-analyzer web" />
       <recent name="$PROJECT_DIR$/реакция" />
       <recent name="$PROJECT_DIR$/список в Кострому" />
@@ -90,17 +97,17 @@
       <recent name="$PROJECT_DIR$/обучение/react-project/src/components/Header" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/my_sites/500/index.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/my_sites/test/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/my_sites/car/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/my_sites/поржать (бонус)/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/my_sites/шарики/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test/index.js" working-dir="$PROJECT_DIR$/test">
       <method v="2" />
     </configuration>
-    <configuration name="index.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test/index.js" working-dir="$PROJECT_DIR$/test">
+    <configuration name="retad.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/russian-words-master/retad.js" working-dir="$PROJECT_DIR$/russian-words-master">
       <method v="2" />
     </configuration>
     <configuration name="video.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test/video.js" working-dir="$PROJECT_DIR$/test">
@@ -108,18 +115,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
-        <item itemvalue="Node.js.index.js (2)" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="Node.js.video.js" />
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.retad.js" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.26830.93" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-WS-252.28539.21" />
       </set>
     </attachedChunks>
   </component>
@@ -377,6 +384,77 @@
       <workItem from="1761903483996" duration="190000" />
       <workItem from="1761981904180" duration="56000" />
       <workItem from="1762176521012" duration="314000" />
+      <workItem from="1762176901760" duration="187000" />
+      <workItem from="1762365703750" duration="3000" />
+      <workItem from="1762448423929" duration="1235000" />
+      <workItem from="1762615991497" duration="3000" />
+      <workItem from="1762622190569" duration="9000" />
+      <workItem from="1762784999434" duration="795000" />
+      <workItem from="1762967028183" duration="214000" />
+      <workItem from="1763215909364" duration="5121000" />
+      <workItem from="1763272836506" duration="22000" />
+      <workItem from="1764263457196" duration="112000" />
+      <workItem from="1764265481893" duration="603000" />
+      <workItem from="1764348145404" duration="7000" />
+      <workItem from="1765378246169" duration="1031000" />
+      <workItem from="1765388085713" duration="11000" />
+      <workItem from="1765813134985" duration="3321000" />
+      <workItem from="1765821923786" duration="12000" />
+      <workItem from="1765868896934" duration="1104000" />
+      <workItem from="1766037868573" duration="15000" />
+      <workItem from="1766055747087" duration="654000" />
+      <workItem from="1766056412896" duration="21000" />
+      <workItem from="1766056444826" duration="1247000" />
+      <workItem from="1766075887643" duration="24000" />
+      <workItem from="1766158925474" duration="2000" />
+      <workItem from="1766219688326" duration="2405000" />
+      <workItem from="1766311559814" duration="7000" />
+      <workItem from="1766395969718" duration="8000" />
+      <workItem from="1766597691772" duration="944000" />
+      <workItem from="1766838208445" duration="55000" />
+      <workItem from="1766847735408" duration="60000" />
+      <workItem from="1766847872476" duration="3000" />
+      <workItem from="1766847884751" duration="33000" />
+      <workItem from="1766847925982" duration="17000" />
+      <workItem from="1766939056538" duration="352000" />
+      <workItem from="1766993232611" duration="56000" />
+      <workItem from="1766993298095" duration="3000" />
+      <workItem from="1767255946534" duration="2823000" />
+      <workItem from="1767270347779" duration="5000" />
+      <workItem from="1767364433338" duration="32000" />
+      <workItem from="1767364475464" duration="825000" />
+      <workItem from="1767365341010" duration="3521000" />
+      <workItem from="1767427174958" duration="22000" />
+      <workItem from="1767429576602" duration="2412000" />
+      <workItem from="1767439456168" duration="6000" />
+      <workItem from="1767439822117" duration="46000" />
+      <workItem from="1767445654568" duration="40000" />
+      <workItem from="1767621394946" duration="166000" />
+      <workItem from="1767621931106" duration="1000" />
+      <workItem from="1767622009151" duration="5000" />
+      <workItem from="1767627924347" duration="250000" />
+      <workItem from="1767628208398" duration="16000" />
+      <workItem from="1767635045748" duration="602000" />
+      <workItem from="1767635864051" duration="13000" />
+      <workItem from="1767635919619" duration="506000" />
+      <workItem from="1767636482762" duration="2058000" />
+      <workItem from="1767681072551" duration="173000" />
+      <workItem from="1767681320893" duration="13000" />
+      <workItem from="1767681376828" duration="22000" />
+      <workItem from="1767681527966" duration="1569000" />
+      <workItem from="1769963588970" duration="386000" />
+      <workItem from="1770309427893" duration="455000" />
+      <workItem from="1770740962602" duration="1000" />
+      <workItem from="1772470916512" duration="2000" />
+      <workItem from="1773334137487" duration="1042000" />
+      <workItem from="1774159398791" duration="1000" />
+      <workItem from="1774257310346" duration="4000" />
+      <workItem from="1774269760671" duration="2007000" />
+      <workItem from="1774283527142" duration="1426000" />
+      <workItem from="1774332200909" duration="4122000" />
+      <workItem from="1774765340897" duration="724000" />
+      <workItem from="1774974897245" duration="636000" />
+      <workItem from="1775062427652" duration="500000" />
     </task>
     <task id="LOCAL-00001" summary="просто">
       <option name="closed" value="true" />
@@ -442,7 +520,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740923413033</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="adding 500 internal server error page, balls and car">
+      <option name="closed" value="true" />
+      <created>1762177035905</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1762177035905</updated>
+    </task>
+    <task id="LOCAL-00010" summary="adding 500 internal server error page, balls and car">
+      <option name="closed" value="true" />
+      <created>1762177075577</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1762177075577</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,6 +563,7 @@
     <MESSAGE value="тумбаюмба x2" />
     <MESSAGE value="тумбаюмба x3" />
     <MESSAGE value="kyoto" />
-    <option name="LAST_COMMIT_MESSAGE" value="kyoto" />
+    <MESSAGE value="adding 500 internal server error page, balls and car" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding 500 internal server error page, balls and car" />
   </component>
 </project>

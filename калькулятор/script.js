@@ -25,7 +25,7 @@ function read(operation) {
 
 function count() {
     try {
-        value.value = eval(value.value);
+        value.value = Number(eval(value.value).toFixed(10))
     } catch(err) {
         value.value = 'ошибка';
     }

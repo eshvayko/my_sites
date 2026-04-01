@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="start">Включить микрофон</button>
+
+<script>
+    const btn = document.getElementById("start");
+
+    btn.onclick = async () => {
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        const ctx = new AudioContext();
+        await ctx.resume(); // требуется в некоторых браузерах
+        const src = ctx.createMediaStreamSource(stream);
+        const analyser = ctx.createAnalyser();
+        const data = new Uint8Array(analyser.frequencyBinCount);
+        src.connect(analyser);
+        function animate() {
+            analyser.getByteFrequencyData(data);
+            const volume = data.reduce((a, b) => a + b, 0) / data.length;
+            const hue = Math.min(360, volume * 3);
+            document.body.style.background = `hsl(${hue}, 80%, 50%)`;
+            requestAnimationFrame(animate);
+        }
+        animate();
+        btn.remove();
+    };
+</script>
+</body>
+</html>
